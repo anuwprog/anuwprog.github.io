@@ -4,8 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>hhhh22</h1>
+    <!-- <div class="xo">
+        <span class="col">
+            <span class="inner"></span>
+            <span class="inner"></span>
+            <span style="padding-right: 0px;" class="inner"></span><br>
+        </span>
+        <span class="col">
+            <span class="inner"></span>
+            <span class="inner"></span>
+            <span style="padding-right: 0px;" class="inner"></span><br>
+        </span>
+        <span class="col">
+            <span class="inner"></span>
+            <span class="inner"></span>
+            <span style="padding-right: 0px;" class="inner"></span>
+        </span>
+        
+    </div> -->
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <div class="win" id="wint"></div>
+    <div class="win" id="winm"></div>
+    <div class="win" id="winb"></div>
+    <table class="xo">
+        <tbody>
+            <tr>
+                <td class="tl" id="tl" onclick="funn('tl')">&nbsp&nbsp</td>
+                <td class="tm" id="tm" onclick="funn('tm')">&nbsp&nbsp</td>
+                <td class="tr" id="tr" onclick="funn('tr')">&nbsp&nbsp</td>
+            </tr>
+            <tr>
+                <td class="ml" id="ml" onclick="funn('ml')">&nbsp&nbsp</td>
+                <td class="mm" id="mm" onclick="funn('mm')">&nbsp&nbsp</td>
+                <td class="mr" id="mr" onclick="funn('mr')">&nbsp&nbsp</td>
+            </tr>
+            <tr>
+                <td class="bl" id="bl" onclick="funn('bl')">&nbsp&nbsp</td>
+                <td class="bm" id="bm" onclick="funn('bm')">&nbsp&nbsp</td>
+                <td class="br" id="br" onclick="funn('br')">&nbsp&nbsp</td>
+            </tr>
+        </tbody>
+    </table>
+    <h4 id="mass">Start the game by clicking any of the boxes above<br>X starts!</h4>
+    <h4 id="reStart" onclick="reStart()">Restart</h4>
+    <script src="java.js"></script>
 </body>
 </html>
