@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS: The Complete Reference</title>
+    <link rel="stylesheet" href="book1.css">
+    <link rel="shortcut icon" type="image/x-icon" href="image-alaa/NEWLOGO.jpg"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet"></head>
+
+<body onload="check('R1C3')">
+    <div class="hader base">
+        <img  class="logo" src="image-alaa/NEWLOGO.jpg" alt="erorr"  title="Blue Book Store1"/>
+       <h3 id="A1"> Bookvibe Store</h3>
+       <div class="links">
+        <a href="index.html" >Home </a>
+        <a href="about us.html" target="_blank">About us</a>
+        <a href="ContactUs.html" target="_blank" >Contact us</a>
+        <a href="Signup.html" target="_blank">Sign up</a>
+       </div>
+     </div> 
+     <!-- ----------------------------------------------------------------- -->
+
+  
+
+     <div class="page-container">
+        <div class="book-container">
+            <img src="img/b9f6810d7a8fa7bfdf02af0fb3114baa.png" alt="Book Cover" class="book-cover">
+    
+            <div class="book-details">
+                <h1 class="book-title">HTML & CSS: The Complete Reference</h1>
+                <h3 class="book-author">Author: Thomas A. Powell</h3>
+                <p class="book-description">
+                    "HTML & CSS: The Complete Reference" by Thomas A. Powell is a comprehensive guide covering all aspects of HTML and CSS, 
+                    including the latest HTML5 standards. This fifth edition is designed to help developers create standards-based web pages,
+                     learn markup and CSS best practices, and deliver optimum client-side experiences. It serves as a valuable resource for both 
+                     beginners and experienced web developers looking for a thorough and detailed reference on these fundamental web technologies.
+                </p>
+                <button onclick="buyBook('R1C3')" class="buy-button">
+                    <p class="price">Paper Book: $5.99</p>
+                    <img src="image-alaa/Book.png" />
+                  </button>
+        
+                  <button onclick="buyBook('R1C3')" class="buy-button pdf , buy-button">
+                    <p class="price">PDF Version: $2.99</p>
+                    <img src="image-alaa/PDF.png" />
+                  </button>
+            </div>
+        </div>
+    </div>
+    <script src="bookPagePurchase.js"></script>
+</body>
+</html>

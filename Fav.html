@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your favorites</title>
+  <link rel="stylesheet" type="text/css" href="c11.css"/>
+  <link rel="shortcut icon" type="image/x-icon" href="image-alaa/NEWLOGO-removebg-preview.jpg" />
+  <style>
+    .infoBtn {
+      margin: 0 15px 0 33px;
+    }
+
+    .removeFromFavBtn {
+      margin-left: 15px;
+    }
+
+    header {
+      background: #2C3E50;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Favorites</h1>
+  </header>
+  <div class="books">
+    <div class="book" id="R1C1" style="display: none;">
+      <img class="img" src="image-alaa/77bf7db2c8de949bb3c9fb6f2bd9c899aeb2daf6_2_704x1000.jpg" alt="erorr">
+      <div class="info">
+        <div class="card1-name">
+          <p>Programming</p>
+          <h4>Java2 Programs</h4>
+        </div>
+        <span class="Buttons">
+          <a href="book1.html">
+            <img class="infoBtn" src="image-alaa/moreAbout.png">
+          </a>
+          <img onclick="removeFromFav('R1C1')" id="R1C1FavBtn" class="removeFromFavBtn" src="image-alaa/redHeart.png"
+            alt="erorr">
+        </span>
+      </div>
+    </div>
+
+    <div class="book" id="R1C2" style="display: none;">
+      <img class="img" src="image-alaa/51C07hM+C5L._SX383_BO1,204,203,200_.jpg" alt="erorr">
+      <div class="info">
+        <div class="card2-name">
+          <p>Programming </p>
+          <h4>C++ Programs</h4>
+        </div>
+        <span class="Buttons">
+          <a href="book2.html">
+            <img class="infoBtn" src="image-alaa/moreAbout.png">
+          </a>
+          <img onclick="removeFromFav('R1C2')" id="R1C2FavBtn" class="removeFromFavBtn" src="image-alaa/redHeart.png"
+            alt="erorr">
+        </span>
+      </div>
+    </div>
+
+    <div class="book" id="R1C3" style="display: none;">
+      <img class="img" src="image-alaa/b9f6810d7a8fa7bfdf02af0fb3114baa.png" alt="erorr">
+      <div class="info">
+        <div class="card3-name">
+          <p>Programming </p>
+          <h4>C++ Programs</h4>
+        </div>
+        <span class="Buttons">
+          <a href="book3.html">
+            <img class="infoBtn" src="image-alaa/moreAbout.png">
+          </a>
+          <img onclick="removeFromFav('R1C3')" id="R1C3FavBtn" class="removeFromFavBtn" src="image-alaa/redHeart.png"
+            alt="erorr">
+        </span>
+      </div>
+    </div>
+
+    <div class="book" id="R1C4" style="display: none;">
+      <img class="img" src="image-alaa/OIP.jpeg" alt="erorr">
+      <div class="info">
+        <div class="card4-name">
+          <p>Math </p>
+          <h4> discrete math</h4>
+        </div>
+        <span class="Buttons">
+          <a href="book4.html">
+            <img class="infoBtn" src="image-alaa/moreAbout.png">
+          </a>
+          <img onclick="removeFromFav('R1C4')" id="R1C4FavBtn" class="removeFromFavBtn" src="image-alaa/redHeart.png"
+            alt="erorr">
+        </span>
+      </div>
+    </div>
+    <div class="book" id="R1C5" style="display: none;">
+      <img class="img" src="image-alaa/8f6f5abf64211d69c38b42dea26f98a3.jpg" alt="erorr">
+      <div class="info">
+        <div class="card4-name">
+          <p>Mechanics </p>
+          <h4> FluidMechanics</h4>
+        </div>
+        <span class="Buttons">
+          <a href="book5.html">
+            <img class="infoBtn" src="image-alaa/moreAbout.png">
+          </a>
+          <img onclick="removeFromFav('R1C5')" id="R1C5FavBtn" class="removeFromFavBtn" src="image-alaa/redHeart.png"
+            alt="erorr">
+        </span>
+      </div>
+    </div>
+
+
+    <div class="book" id="R1C6" style="display: none;">
+      <img class="img" src="image-alaa/OIP (1).jpeg" alt="erorr">
+      <div class="info">
+        <div class="card4-name">
+          <p>Math </p>
+          <h4>Linear ALgebra</h4>
+        </div>
+        <span class="Buttons">
+          <a href="book6.html">
+            <img class="infoBtn" src="image-alaa/moreAbout.png">
+          </a>
+          <img onclick="removeFromFav('R1C6')" id="R1C6FavBtn" class="removeFromFavBtn" src="image-alaa/redHeart.png"
+            alt="erorr">
+        </span>
+      </div>
+    </div>
+
+    <!-------------------------- -->
+    <div class="book" id="R2C1" style="display: none;">
+      <img class="img" src="image-alaa/1532aa8e-e52e-49b7-b093-15cf99de3114.jpg" alt="erorr">
+      <div class="info">
+        <div class="card1-name">
+          <p>Skills </p>
+          <h4>العادات الذرية </h4>
+        </div>
+        <span class="Buttons">
+          <a href="book7.html">
+            <img class="infoBtn" src="image-alaa/moreAbout.png">
+          </a>
+          <img onclick="removeFromFav('R2C1')" id="R2C1FavBtn" class="removeFromFavBtn" src="image-alaa/redHeart.png"
+            alt="erorr">
+        </span>
+      </div>
+    </div>
+
+    <div class="book" id="R2C2" style="display: none;">
+      <img class="img" src="image-alaa/OIP (2).jpeg" alt="erorr">
+      <div class="info">
+        <div class="card2-name">
+          <p>Skills </p>
+          <h4>Rich Dad Poor Dad</h4>
+        </div>
+        <span class="Buttons">
+          <a href="book8.html">
+            <img class="infoBtn" src="image-alaa/moreAbout.png">
+          </a>
+          <img onclick="removeFromFav('R2C2')" id="R2C2FavBtn" class="removeFromFavBtn" src="image-alaa/redHeart.png"
+            alt="erorr">
+        </span>
+      </div>
+    </div>
+
+    <div class="book" id="R2C3" style="display: none;">
+      <img class="img" src="image-alaa/700-1-scaled.jpg" alt="erorr">
+      <div class="info">
+        <div class="card3-name">
+          <p>Skills </p>
+          <h4>قوة عقلك الباطن</h4>
+        </div>
+        <span class="Buttons">
+          <a href="book9.html">
+            <img class="infoBtn" src="image-alaa/moreAbout.png">
+          </a>
+          <img onclick="removeFromFav('R2C3')" id="R2C3FavBtn" class="removeFromFavBtn" src="image-alaa/redHeart.png"
+            alt="erorr">
+        </span>
+      </div>
+    </div>
+
+    <div class="book" id="R2C4" style="display: none;">
+      <img class="img" src="image-alaa/OIP (3).jpeg" alt="erorr">
+      <div class="info">
+        <div class="card4-name">
+          <p>Management </p>
+          <h4>Management of Principles</h4>
+        </div>
+        <span class="Buttons">
+          <a href="book10.html">
+            <img class="infoBtn" src="image-alaa/moreAbout.png">
+          </a>
+          <img onclick="removeFromFav('R2C4')" id="R2C4FavBtn" class="removeFromFavBtn" src="image-alaa/redHeart.png"
+            alt="erorr">
+        </span>
+      </div>
+    </div>
+    <div class="book" id="R2C5" style="display: none;">
+      <img class="img" src="image-alaa/393105.jpg" alt="erorr">
+      <div class="info">
+        <div class="card4-name">
+          <p>LAW </p>
+          <h4>Law Topices In English</h4>
+        </div>
+        <span class="Buttons">
+          <a href="book11.html">
+            <img class="infoBtn" src="image-alaa/moreAbout.png">
+          </a>
+          <img onclick="removeFromFav('R2C5')" id="R2C5FavBtn" class="removeFromFavBtn" src="image-alaa/redHeart.png"
+            alt="erorr">
+        </span>
+      </div>
+    </div>
+
+    <div class="book" id="R2C6" style="display: none;">
+      <img class="img" src="image-alaa/R.jpeg" alt="erorr">
+      <div class="info">
+        <div class="card4-name">
+          <p>history </p>
+          <h4>The History of English Law</h4>
+        </div>
+        <span class="Buttons">
+          <a href="book12.html">
+            <img class="infoBtn" src="image-alaa/moreAbout.png">
+          </a>
+          <img onclick="removeFromFav('R2C6')" id="R2C6FavBtn" class="removeFromFavBtn" src="image-alaa/redHeart.png"
+            alt="erorr">
+        </span>
+      </div>
+    </div>
+
+    <!----------------------------------->
+
+
+    <div class="book" id="R3C1" style="display: none;">
+      <img class="img" src="image-alaa/32ac3c392b76679bcb9db61dd2756575--ap-literature-great-expectations.jpg"
+        alt="erorr">
+      <div class="info">
+        <div class="card1-name">
+          <p>Novel</p>
+          <h4>Great Expectations</h4>
+        </div>
+        <span class="Buttons">
+          <a href="book13.html">
+            <img class="infoBtn" src="image-alaa/moreAbout.png">
+          </a>
+          <img onclick="removeFromFav('R3C1')" id="R3C1FavBtn" class="removeFromFavBtn" src="image-alaa/redHeart.png"
+            alt="erorr">
+        </span>
+      </div>
+    </div>
+
+    <div class="book" id="R3C2" style="display: none;">
+      <img class="img" src="image-alaa/david-copperfield-gebundene-ausgabe-charles-dickens.webp" alt="erorr">
+      <div class="info">
+        <div class="card2-name">
+          <p>Novel</p>
+          <h4>David Copperfield</h4>
+        </div>
+        <span class="Buttons">
+          <a href="book14.html">
+            <img class="infoBtn" src="image-alaa/moreAbout.png">
+          </a>
+          <img onclick="removeFromFav('R3C2')" id="R3C2FavBtn" class="removeFromFavBtn" src="image-alaa/redHeart.png"
+            alt="erorr">
+        </span>
+      </div>
+    </div>
+
+    <div class="book" id="R3C3" style="display: none;">
+      <img class="img" src="image-alaa/OIP (4).jpeg" alt="erorr">
+      <div class="info">
+        <div class="card3-name">
+          <p>Novel</p>
+          <h4>Great Expectations</h4>
+        </div>
+        <span class="Buttons">
+          <a href="book15.html">
+            <img class="infoBtn" src="image-alaa/moreAbout.png">
+          </a>
+          <img onclick="removeFromFav('R3C3')" id="R3C3FavBtn" class="removeFromFavBtn" src="image-alaa/redHeart.png"
+            alt="erorr">
+        </span>
+      </div>
+    </div>
+
+    <div class="book" id="R3C4" style="display: none;">
+      <img class="img" src="image-alaa/OIP (5).jpeg" alt="erorr">
+      <div class="info">
+        <div class="card4-name">
+          <p>Novel</p>
+          <h4>The Pickwick Papers</h4>
+        </div>
+        <span class="Buttons">
+          <a href="book16.html">
+            <img class="infoBtn" src="image-alaa/moreAbout.png">
+          </a>
+          <img onclick="removeFromFav('R3C4')" id="R3C4FavBtn" class="removeFromFavBtn" src="image-alaa/redHeart.png"
+            alt="erorr">
+        </span>
+      </div>
+    </div>
+
+    <div class="book" id="R3C5" style="display: none;">
+      <img class="img" src="image-alaa/OIP (6).jpeg" alt="erorr">
+      <div class="info">
+        <div class="card4-name">
+          <p>Novel</p>
+          <h4>Oliver Twist</h4>
+        </div>
+        <span class="Buttons">
+          <a href="book17.html">
+            <img class="infoBtn" src="image-alaa/moreAbout.png">
+          </a>
+          <img onclick="removeFromFav('R3C5')" id="R3C5FavBtn" class="removeFromFavBtn" src="image-alaa/redHeart.png"
+            alt="erorr">
+        </span>
+      </div>
+    </div>
+
+
+    <div class="book" id="R3C6" style="display: none;">
+      <img class="img" src="image-alaa/OIP (7).jpeg" alt="erorr">
+      <div class="info">
+        <div class="card4-name">
+          <p>Novel</p>
+          <h4>Little Dorrit</h4>
+        </div>
+        <span class="Buttons">
+          <a href="book18.html">
+            <img class="infoBtn" src="image-alaa/moreAbout.png">
+          </a>
+          <img onclick="removeFromFav('R3C6')" id="R3C6FavBtn" class="removeFromFavBtn" src="image-alaa/redHeart.png"
+            alt="erorr">
+        </span>
+      </div>
+    </div>
+  </div>
+  <p class="clear"></p>
+  <script src="inFav.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>العادات الذرية</title>
+    <link rel="stylesheet" href="book1.css">
+    <link rel="shortcut icon" type="image/x-icon" href="image-alaa/NEWLOGO.jpg"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet"></head>
+
+<body onload="check('R2C1')">
+    <div class="hader base">
+        <img  class="logo" src="image-alaa/NEWLOGO.jpg" alt="erorr"  title="Blue Book Store1"/>
+       <h3 id="A1"> Bookvibe Store</h3>
+       <div class="links">
+        <a href="index.html" >Home </a>
+        <a href="about us.html" target="_blank">About us</a>
+        <a href="ContactUs.html" target="_blank" >Contact us</a>
+        <a href="Signup.html" target="_blank">Sign up</a>
+       </div>
+     </div> 
+     <!-- ----------------------------------------------------------------- -->
+
+  
+
+     <div class="page-container">
+        <div class="book-container">
+            <img src="img/1532aa8e-e52e-49b7-b093-15cf99de3114.jpg" alt="Book Cover" class="book-cover">
+    
+            <div class="book-details">
+                <h1 class="book-title"> العادات الذرية</h1>
+                <h3 class="book-author">Author: James Clear</h3>
+                <p class="book-description">
+                    "Atomic Habits" by James Clear is a practical guide to building good habits and breaking bad ones. 
+                    The book offers a simple and effective framework for improving every day by making small, incremental changes. 
+                    Clear emphasizes the power of tiny habits and how they compound over time to produce remarkable results.
+                     He provides actionable strategies based on behavioral psychology, making it an accessible and insightful read
+                      for anyone looking to transform their habits and achieve their goals.
+                </p>
+                <button onclick="buyBook('R2C1')" class="buy-button">
+                    <p class="price">Paper Book: $5.99</p>
+                    <img src="image-alaa/Book.png" />
+                  </button>
+        
+                  <button onclick="buyBook('R2C1')" class="buy-button pdf , buy-button">
+                    <p class="price">PDF Version: $2.99</p>
+                    <img src="image-alaa/PDF.png" />
+                  </button>
+            </div>
+        </div>
+    </div>
+    <script src="bookPagePurchase.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementary Linear Algebra</title>
+    <link rel="stylesheet" href="book1.css">
+    <link rel="shortcut icon" type="image/x-icon" href="image-alaa/NEWLOGO.jpg"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet"></head>
+
+<body onload="check('R1C6')">
+    <div class="hader base">
+        <img  class="logo" src="image-alaa/NEWLOGO.jpg" alt="erorr"  title="Blue Book Store1"/>
+       <h3 id="A1"> Bookvibe Store</h3>
+       <div class="links">
+        <a href="index.html" >Home </a>
+      <a href="about us.html" target="_blank">About us</a>
+      <a href="ContactUs.html" target="_blank" >Contact us</a>
+      <a href="Signup.html" target="_blank">Sign up</a>
+       </div>
+     </div> 
+     <!-- ----------------------------------------------------------------- -->
+
+  
+
+     <div class="page-container">
+        <div class="book-container">
+            <img src="img/OIP (1).jpeg" alt="Book Cover" class="book-cover">
+    
+            <div class="book-details">
+                <h1 class="book-title">Elementary Linear Algebra</h1>
+                <h3 class="book-author">Author: Ron Larson</h3>
+                <p class="book-description">
+                    "Elementary Linear Algebra" by Ron Larson is a textbook designed for introductory courses in linear algebra.
+                     This edition, marked as "8e," provides a comprehensive overview of the fundamental concepts of linear algebra,
+                      including systems of linear equations, matrices, determinants, vector spaces, eigenvalues, and eigenvectors.
+                       The book is known for its clear and concise explanations, numerous examples, and a variety of exercises that
+                        help students develop a strong understanding of the subject and its applications.
+                </p>
+                <button onclick="buyBook('R1C6')" class="buy-button">
+                    <p class="price">Paper Book: $5.99</p>
+                    <img src="image-alaa/Book.png" />
+                  </button>
+        
+                  <button onclick="buyBook('R1C6')" class="buy-button pdf , buy-button">
+                    <p class="price">PDF Version: $2.99</p>
+                    <img src="image-alaa/PDF.png" />
+                  </button>
+            </div>
+        </div>
+    </div>
+    <script src="bookPagePurchase.js"></script>
+</body>
+</html>

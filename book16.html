@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Pickwick Papers</title>
+    <link rel="stylesheet" href="book1.css">
+    <link rel="shortcut icon" type="image/x-icon" href="image-alaa/NEWLOGO.jpg"/> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+<body onload="check('R3C4')">
+    <div class="hader base">
+        <img  class="logo" src="image-alaa/NEWLOGO.jpg" alt="erorr"  title="Blue Book Store1"/>
+       <h3 id="A1"> Bookvibe Store</h3>
+       <div class="links">
+        <a href="index.html" >Home </a>
+        <a href="about us.html" target="_blank">About us</a>
+        <a href="ContactUs.html" target="_blank" >Contact us</a>
+        <a href="Signup.html" target="_blank">Sign up</a>
+       </div>
+     </div> 
+     <!-- ----------------------------------------------------------------- -->
+
+  
+
+     <div class="page-container">
+        <div class="book-container">
+            <img src="img/OIP (5).jpeg" alt="Book Cover" class="book-cover">
+    
+            <div class="book-details">
+                <h1 class="book-title">The Pickwick Papers</h1>
+                <h3 class="book-author">Author:  Charles Dickens</h3>
+                <p class="book-description">
+                    "The Pickwick Papers" is Charles Dickens' first novel, a humorous and episodic
+                     account of the travels and adventures of Mr. Samuel Pickwick and the members 
+                     of his Pickwick Club. The book follows their various comical encounters and
+                      misadventures as they journey through the English countryside. Initially 
+                      published in serial form, it is known for its lively characters, satirical
+                       observations of English society, and its blend of farce and sentimentality.
+                        "The Pickwick Papers" is considered a significant early work in Dickens' 
+                        career, establishing his talent for creating memorable and eccentric personalities.
+                </p>
+                <button onclick="buyBook('R3C4')" class="buy-button">
+                    <p class="price">Paper Book: $5.99</p>
+                    <img src="image-alaa/Book.png" />
+                  </button>
+        
+                  <button onclick="buyBook('R3C4')" class="buy-button pdf , buy-button">
+                    <p class="price">PDF Version: $2.99</p>
+                    <img src="image-alaa/PDF.png" />
+                  </button>
+            </div>
+        </div>
+    </div>
+    <script src="bookPagePurchase.js"></script>
+</body>
+</html>

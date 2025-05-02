@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Dorrit</title>
+    <link rel="stylesheet" href="book1.css">
+    <link rel="shortcut icon" type="image/x-icon" href="image-alaa/NEWLOGO.jpg"/> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body onload="check('R3C6')">
+    <div class="hader base">
+        <img  class="logo" src="image-alaa/NEWLOGO.jpg" alt="erorr"  title="Blue Book Store1"/>
+       <h3 id="A1"> Bookvibe Store</h3>
+       <div class="links">
+        <a href="index.html" >Home </a>
+        <a href="about us.html" target="_blank">About us</a>
+        <a href="ContactUs.html" target="_blank" >Contact us</a>
+        <a href="Signup.html" target="_blank">Sign up</a>
+       </div>
+     </div> 
+     <!-- ----------------------------------------------------------------- -->
+
+  
+
+     <div class="page-container">
+        <div class="book-container">
+            <img src="img/OIP (7).jpeg" alt="Book Cover" class="book-cover">
+    
+            <div class="book-details">
+                <h1 class="book-title"> Little Dorrit</h1>
+                <h3 class="book-author">Author: Charles Dickens</h3>
+                <p class="book-description">
+                    "Little Dorrit" is a novel by Charles Dickens that satirizes the social and bureaucratic 
+                    failings of Victorian England, particularly the Marshalsea debtor's prison. The story
+                     primarily follows Amy Dorrit, born and raised in the prison, and Arthur Clennam, 
+                     who returns to England after years abroad to unravel a family mystery connected
+                      to the Dorrit family's misfortune. The novel explores themes of imprisonment, 
+                      both literal and metaphorical, the corrupting influence of wealth and social 
+                      status, and the power of love and compassion in a flawed society. It is 
+                      a complex and insightful work that critiques the institutions and values of Dickens' time.
+                </p>
+                <button onclick="buyBook('R3C6')" class="buy-button">
+                    <p class="price">Paper Book: $5.99</p>
+                    <img src="image-alaa/Book.png" />
+                  </button>
+        
+                  <button onclick="buyBook('R3C6')" class="buy-button pdf , buy-button">
+                    <p class="price">PDF Version: $2.99</p>
+                    <img src="image-alaa/PDF.png" />
+                  </button>
+            </div>
+        </div>
+    </div>
+    <script src="bookPagePurchase.js"></script>
+</body>
+</html>

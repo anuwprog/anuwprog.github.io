@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your cart</title>
+    <link rel="stylesheet" href="basket.css">
+    <link rel="shortcut icon" type="image/x-icon" href="image-alaa/NEWLOGO-removebg-preview.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <h1>Shopping Cart</h1>
+    </header>
+
+    <main class="container">
+        <section class="summary">
+            <h2>Order Summary</h2>
+            <div class="summary-details">
+                <p>Shipping: <span>To be determined</span></p>
+                <p>Amount: $<span id="total-price">59.97</span></p>
+            </div>
+            <button id="checkout-btn">Complete Purchase</button>
+            <button onclick="window.location.assign('index.html')" id="continue-shopping">Continue Shopping</button>
+            <button onclick="clearAll()" id="continue-shopping">Clear your cart</button>
+        </section>
+
+        <section class="cart-items">
+            <div class="item" id="R1C1">
+                <img src="img/77bf7db2c8de949bb3c9fb6f2bd9c899aeb2daf6_2_704x1000.jpg"
+                    alt="Mrs. Frisby and the Rats of NIMH" />
+                <h3>JAVA 2 Programs</h3>
+                <p>Poul Klausen</p>
+                <p>Price: $<span class="price">19.99</span> </p>
+                <div class="quantity">
+                    <input type="number" value="1" min="1" />
+                </div>
+                <button onclick="removeFromCart('R1C1')" class="delete-btn">Delete</button>
+            </div>
+
+            <div class="item" id="R1C2">
+                <img src="img/51C07hM+C5L._SX383_BO1,204,203,200_.jpg" alt="The Lost Library" />
+                <h3>C How to Program</h3>
+                <p>Paul Deitel & Harvey Deitel</p>
+                <p>Price: $<span class="price">19.99</span> </p>
+                <div class="quantity">
+                    <input type="number" value="1" min="1" />
+                </div>
+                <button onclick="removeFromCart('R1C2')" class="delete-btn">Delete</button>
+            </div>
+
+            <div class="item" id="R1C3">
+                <img src="img/b9f6810d7a8fa7bfdf02af0fb3114baa.png" alt="The Patient" />
+                <h3>HTML & CSS: The Complete Reference</h3>
+                <p>Thomas A. Powell</p>
+                <p>Price: $<span class="price">19.99</span></p>
+                <div class="quantity">
+                    <input type="number" value="1" min="1" />
+                </div>
+                <button onclick="removeFromCart('R1C3')" class="delete-btn">Delete</button>
+            </div>
+            <div class="item" id="R1C4">
+                <img src="image-alaa/OIP.jpeg" alt="The Patient" />
+                <h3>Discrete Mathematics</h3>
+                <p>Charles R. B. Wrigh & Kenneth A. Ross</p>
+                <p>Price: $<span class="price">19.99</span></p>
+                <div class="quantity">
+                    <input type="number" value="1" min="1" />
+                </div>
+                <button onclick="removeFromCart('R1C4')" class="delete-btn">Delete</button>
+            </div>
+            <div class="item" id="R1C5">
+                <img src="img/8f6f5abf64211d69c38b42dea26f98a3.jpg" alt="The Patient" />
+                <h3>Introduction to Fluid Mechanics</h3>
+                <p>John W. Mitchel</p>
+                <p>Price: $<span class="price">19.99</span></p>
+                <div class="quantity">
+                    <input type="number" value="1" min="1" />
+                </div>
+                <button onclick="removeFromCart('R1C5')" class="delete-btn">Delete</button>
+            </div>
+            <div class="item" id="R1C6">
+                <img src="image-alaa/OIP (1).jpeg" alt="The Patient" />
+                <h3>Elementary Linear Algebra</h3>
+                <p>Ron Larson</p>
+                <p>Price: $<span class="price">19.99</span></p>
+                <div class="quantity">
+                    <input type="number" value="1" min="1" />
+                </div>
+                <button onclick="removeFromCart('R1C6')" class="delete-btn">Delete</button>
+            </div>
+            <div class="item" id="R2C1">
+                <img src="image-alaa/1532aa8e-e52e-49b7-b093-15cf99de3114.jpg" alt="The Patient" />
+                <h3>العادات الذرية</h3>
+                <p>James Clear</p>
+                <p>Price: $<span class="price">19.99</span></p>
+                <div class="quantity">
+                    <input type="number" value="1" min="1" />
+                </div>
+                <button onclick="removeFromCart('R2C1')" class="delete-btn">Delete</button>
+            </div>
+            <div class="item" id="R2C2">
+                <img src="image-alaa/OIP (2).jpeg" alt="The Patient" />
+                <h3>Rich Dad Poor Dad.</h3>
+                <p>Robert T. Kiyosak</p>
+                <p>Price: $<span class="price">19.99</span></p>
+                <div class="quantity">
+                    <input type="number" value="1" min="1" />
+                </div>
+                <button onclick="removeFromCart('R2C2')" class="delete-btn">Delete</button>
+            </div>
+            <div class="item" id="R2C3">
+                <img src="img/700-1-scaled.jpg" alt="The Patient" />
+                <h3>قوة عقلك الباطن</h3>
+                <p>الدكتور جوزيف ميرفي</p>
+                <p>Price: $<span class="price">19.99</span></p>
+                <div class="quantity">
+                    <input type="number" value="1" min="1" />
+                </div>
+                <button onclick="removeFromCart('R2C3')" class="delete-btn">Delete</button>
+            </div>
+            <div class="item" id="R2C4">
+                <img src="img/OIP (3).jpeg" alt="The Patient" />
+                <h3>Principles of Management</h3>
+                <p>PC Tripathi, PN Reddy, and Ashish Bajpai</p>
+                <p>Price: $<span class="price">19.99</span></p>
+                <div class="quantity">
+                    <input type="number" value="1" min="1" />
+                </div>
+                <button onclick="removeFromCart('R2C4')" class="delete-btn">Delete</button>
+            </div>
+            <div class="item" id="R2C5">
+                <img src="img/393105.jpg" alt="The Patient" />
+                <h3>Law Topics in English</h3>
+                <p>Dr. Meriem Tienti</p>
+                <p>Price: $<span class="price">19.99</span></p>
+                <div class="quantity">
+                    <input type="number" value="1" min="1" />
+                </div>
+                <button onclick="removeFromCart('R2C5')" class="delete-btn">Delete</button>
+            </div>
+            <div class="item" id="R2C6">
+                <img src="image-alaa/R.jpeg" alt="The Patient" />
+                <h3>The History of English Law</h3>
+                <p>Poul KlausenSir Frederick Pollock & Frederic William Maitland</p>
+                <p>Price: $<span class="price">19.99</span></p>
+                <div class="quantity">
+                    <input type="number" value="1" min="1" />
+                </div>
+                <button onclick="removeFromCart('R2C6')" class="delete-btn">Delete</button>
+            </div><!---------------------------------->
+            <div class="item" id="R3C1">
+                <img src="image-alaa/32ac3c392b76679bcb9db61dd2756575--ap-literature-great-expectations.jpg"
+                    alt="The Patient" />
+                <h3>Great Expectations</h3>
+                <p>Charles Dickens</p>
+                <p>Price: $<span class="price">19.99</span></p>
+                <div class="quantity">
+                    <input type="number" value="1" min="1" />
+                </div>
+                <button onclick="removeFromCart('R3C1')" class="delete-btn">Delete</button>
+            </div>
+            <div class="item" id="R3C2">
+                <img src="image-alaa/david-copperfield-gebundene-ausgabe-charles-dickens.webp" alt="The Patient" />
+                <h3>David Copperfield</h3>
+                <p>Charles Dickens</p>
+                <p>Price: $<span class="price">19.99</span></p>
+                <div class="quantity">
+                    <input type="number" value="1" min="1" />
+                </div>
+                <button onclick="removeFromCart('R3C2')" class="delete-btn">Delete</button>
+            </div>
+            <div class="item" id="R3C3">
+                <img src="image-alaa/OIP (4).jpeg" alt="The Patient" />
+                <h3>Great Expectations</h3>
+                <p>Charles Dickens</p>
+                <p>Price: $<span class="price">19.99</span></p>
+                <div class="quantity">
+                    <input type="number" value="1" min="1" />
+                </div>
+                <button onclick="removeFromCart('R3C3')" class="delete-btn">Delete</button>
+            </div>
+            <div class="item" id="R3C4">
+                <img src="image-alaa/OIP (5).jpeg" alt="The Patient" />
+                <h3>The Pickwick Papers</h3>
+                <p>Charles Dickens</p>
+                <p>Price: $<span class="price">19.99</span></p>
+                <div class="quantity">
+                    <input type="number" value="1" min="1" />
+                </div>
+                <button onclick="removeFromCart('R3C4')" class="delete-btn">Delete</button>
+            </div>
+            <div class="item" id="R3C5">
+                <img src="image-alaa/OIP (6).jpeg" alt="The Patient" />
+                <h3>Oliver Twist</h3>
+                <p>Oliver Twist</p>
+                <p>Price: $<span class="price">19.99</span></p>
+                <div class="quantity">
+                    <input type="number" value="1" min="1" />
+                </div>
+                <button onclick="removeFromCart('R3C5')" class="delete-btn">Delete</button>
+            </div>
+            <div class="item" id="R3C6">
+                <img src="image-alaa/OIP (7).jpeg" alt="The Patient" />
+                <h3>Little Dorrit</h3>
+                <p>Charles Dickens</p>
+                <p>Price: $<span class="price">19.99</span></p>
+                <div class="quantity">
+                    <input type="number" value="1" min="1" />
+                </div>
+                <button onclick="removeFromCart('R3C6')" class="delete-btn">Delete</button>
+            </div>
+        </section>
+    </main>
+    <script src="inCart.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great Expectations</title>
+    <link rel="stylesheet" href="book1.css">
+    <link rel="shortcut icon" type="image/x-icon" href="image-alaa/NEWLOGO.jpg"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body onload="check('R3C1')">
+    <div class="hader base">
+        <img  class="logo" src="image-alaa/NEWLOGO.jpg" alt="erorr"  title="Blue Book Store1"/>
+       <h3 id="A1"> Bookvibe Store</h3>
+       <div class="links">
+        <a href="index.html" >Home </a>
+        <a href="about us.html" target="_blank">About us</a>
+        <a href="ContactUs.html" target="_blank" >Contact us</a>
+        <a href="Signup.html" target="_blank">Sign up</a>
+       </div>
+     </div> 
+     <!-- ----------------------------------------------------------------- -->
+
+  
+
+     <div class="page-container">
+        <div class="book-container">
+            <img src="img/32ac3c392b76679bcb9db61dd2756575--ap-literature-great-expectations.jpg" alt="Book Cover" class="book-cover">
+    
+            <div class="book-details">
+                <h1 class="book-title">Great Expectations</h1>
+                <h3 class="book-author">Author: Charles Dickens</h3>
+                <p class="book-description">
+                    "Great Expectations" is a classic novel by Charles Dickens that follows the life of Pip, an orphan who unexpectedly comes 
+                    into a large fortune and moves to London to become a gentleman. The story explores themes of social class, ambition, love,
+                     and moral development as Pip navigates his new life and discovers the true source of his wealth and the expectations that
+                      come with it. It is a widely read and studied work of English literature known for its compelling characters and insightful 
+                      social commentary.
+                </p>
+                <button onclick="buyBook('R3C1')" class="buy-button">
+                    <p class="price">Paper Book: $5.99</p>
+                    <img src="image-alaa/Book.png" />
+                  </button>
+        
+                  <button onclick="buyBook('R3C1')" class="buy-button pdf , buy-button">
+                    <p class="price">PDF Version: $2.99</p>
+                    <img src="image-alaa/PDF.png" />
+                  </button>
+            </div>
+        </div>
+    </div>
+    <script src="bookPagePurchase.js"></script>
+</body>
+</html>

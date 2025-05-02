@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C How to Program</title>
+    <link rel="stylesheet" href="book1.css">
+    <link rel="shortcut icon" type="image/x-icon" href="image-alaa/NEWLOGO.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+</head>
+
+<body onload="check('R1C2')">
+    <div class="hader base">
+        <img class="logo" src="image-alaa/NEWLOGO.jpg" alt="erorr" title="Blue Book Store1" />
+        <h3 id="A1"> Bookvibe Store</h3>
+        <div class="links">
+            <a href="index.html">Home </a>
+            <a href="about us.html" target="_blank">About us</a>
+            <a href="ContactUs.html" target="_blank">Contact us</a>
+            <a href="Signup.html" target="_blank">Sign up</a>
+        </div>
+    </div>
+    <!-- ----------------------------------------------------------------- -->
+
+
+
+    <div class="page-container">
+        <div class="book-container">
+            <img src="img/51C07hM+C5L._SX383_BO1,204,203,200_.jpg" alt="Book Cover" class="book-cover">
+
+            <div class="book-details">
+                <h1 class="book-title">C How to Program </h1>
+                <h3 class="book-author">Author: Paul Deitel & Harvey Deitel
+                </h3>
+                <p class="book-description">
+                    "C How to Program with an introduction to C++" is a comprehensive textbook designed for individuals
+                    learning the C programming language,
+                    with an introductory section covering the basics of C++. This eighth edition by Paul and Harvey
+                    Deitel is known for its clear explanations,
+                    extensive code examples, and thorough coverage of fundamental programming concepts.
+                    It is widely used in academic settings and by self-learners to build a strong foundation in C
+                    programming and gain initial exposure to C++.
+                </p>
+                <button onclick="buyBook('R1C2')" class="buy-button">
+                    <p class="price">Paper Book: $5.99</p>
+                    <img src="image-alaa/Book.png" />
+                </button>
+
+                <button onclick="buyBook('R1C2')" class="buy-button pdf , buy-button">
+                    <p class="price">PDF Version: $2.99</p>
+                    <img src="image-alaa/PDF.png" />
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="bookPagePurchase.js"></script>
+</body>
+</html>

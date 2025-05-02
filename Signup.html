@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookVibe Sign up</title>
+    <link rel="stylesheet" href="Signup.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/x-icon" href="image-alaa/NEWLOGO-removebg-preview.jpg"/>
+    <meta
+      name="keywords"
+      content="Online bookstore sign up,Free book lover account,Register for book discounts,Join a reading community,Earn rewards on book purchases"/>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="page-signup">
+      <form action="index.html" method="post">
+        <h1>Sign up</h1>
+
+        <div class="input-signup">
+          <input
+            type="text"
+            required
+            placeholder="First name"
+          /><!--  الاول الاسم-->
+          <i class="bx bxs-id-card"></i>
+        </div>
+
+        <div class="input-signup">
+          <input
+            type="text"
+            required
+            placeholder="Last name"
+          /><!--  الاخير الاسم-->
+          <i class="bx bxs-id-card"></i>
+        </div>
+
+        <div class="input-signup">
+          <input type="text" required placeholder="Username" /><!-- اللقب-->
+          <i class="bx bxs-user"></i>
+        </div>
+
+        <div class="input-signup">
+          <input type="email" required placeholder="E-mail" /><!--الحساب-->
+          <i class="bx bxs-user-account"></i>
+        </div>
+
+        <div class="input-signup">
+          <input
+            type="password"
+            required
+            placeholder="Password"
+            minlength="6"
+            maxlength="20"
+          /><!-- كلمة السر-->
+          <i class="bx bxs-lock-alt"></i>
+        </div>
+
+        <div class="gender">
+          <label for="radioMale"
+            ><input type="radio"
+              class="radioMale"
+              value="Male"
+              name="gender"
+              />
+            <i class="bx bx-male"></i>Male</label>
+
+          <label for="radioFemale"
+            ><input
+              type="radio"
+              class="radioFemale"
+              value="Female"
+              name="gender"
+            />
+            <i class="bx bx-female"></i>Female</label>
+        </div>
+
+        <button type="submit" class="button" >Sign up</button>
+
+        <div class="Register1">
+          <p>Have an account? <a href="Login.html">Log in</a></p>
+        </div>
+      </form>
+    </div>
+    <script>
+      document.querySelector("form").addEventListener("submit", function (e) {
+        e.preventDefault(); 
+    
+        const firstName = document.getElementById("First name").value.trim();
+        const lastName = document.getElementById("last name").value.trim();
+        const username = document.getElementById("username").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const password = document.getElementById("password").value.trim();
+        const gender = document.querySelector("input[name='gender']:checked");
+    
+        
+        if (!firstName || !lastName || !username || !email || !password) {
+          alert("من فضلك، املأ جميع الحقول.");
+          return;
+        }
+    
+        
+        if (!gender) {
+          alert("من فضلك، اختر النوع (ذكر أو أنثى).");
+          return;
+        }
+    
+        
+        if (password.length < 6 || password.length > 20) {
+          alert("كلمة السر يجب أن تكون بين 6 و 20 حرف.");
+          return;
+        }
+    
+        window.location.href="index.html";
+    
+      });
+    </script>
+  </body>
+</html>

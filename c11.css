@@ -1,0 +1,481 @@
+#A2{
+   text-align: center;
+   font-size: 33px;
+   
+   
+}
+.x00{
+   background-color: #2C3E50;
+   height: 550px;
+   background-image: url(titl.jpg);
+   background-size: 50% 50%;
+   z-index: -1;
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 50px;
+   align-items: center;
+   border-radius: 0 0 50px 50px;
+}
+.x00 button{
+   position: absolute;
+   background-color: chocolate;
+   left: 180px;
+   height: 30px;
+      
+}
+.image00 img{
+   background-image: url(titl.jpg);
+   width: 430px;
+   border-radius: 20px;
+   background-size: 10px;
+   position: relative;
+   left: -20px;
+}
+.left-section{
+   position: relative;
+   left: -30px;
+}
+
+#A4{
+   color: white;
+   font-family: "Playwrite AU SA", cursive;
+   margin-left: 40px;
+}
+#A5{
+   color: white;
+   font-family: "Playwrite AU SA", cursive;
+   margin-left: 40px;
+}
+#A6{
+   color: white;
+   font-size: 23px;
+   font-family: "Playwrite AU SA", cursive;
+}
+#A10{
+   font-size: 23px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* My page */
+#A1 {
+   text-align: right;
+   color: white;
+   font-size: 30px;
+   display: flex;
+   font-family: "Playwrite AU SA", cursive;
+   margin-left: 10px;
+   position: relative;
+   left: 15px;
+}
+.search input {
+   border-radius: 25px;
+   border: none;
+   outline: none;
+   height: 28px;
+   padding-left: 10px;
+   padding-right: 10px;
+   
+}
+.searchBtn {
+   border-radius: 25px;
+   border: none;
+   height: 33px;
+   width: 150px;
+   background-color: white;
+   display: inline-block;
+   margin-left: 30px;
+   font-family: "Playwrite AU SA", cursive;
+   padding: 2px 7px;
+}
+.hader{
+   border: 0px solid;
+   background-image: url(image.png);
+   background-size: contain;
+   background-position: top;
+   font-family: "Playwrite AU SA", cursive;
+}
+ .base{
+   padding: 0px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #2C3E50;
+   font-family: "Playwrite AU SA", cursive;
+ }
+ .logoHome{
+    width: 130px;
+    border-radius: 15px;
+    margin: 26px 10px;
+ }
+ .logo{
+   width: 100px;
+   border-radius: 15px;
+   margin: 10px 10px;
+ }
+.links a{
+color: white;
+padding: 10px 50px;
+text-decoration: none;
+border-radius: 15px;
+justify-content: space-between;
+margin-right: 20px; 
+ display: inline-block;
+transition: all 0.3s ease;
+}
+
+.links a:hover{
+   color: #F1C40F;  
+   background-color: rgba(241, 196, 15, 0.1); 
+   transition: all 0.3s ease;
+}
+
+.trending{
+   padding: 10px 50px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.trending button{
+   background-color: chocolate;
+border-radius: 15px ;
+color: white;
+border: 0;
+padding: 10px 50px;
+height: 30px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.trending2025{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.trending2025 h1{
+   margin: 0;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card1{
+   width: 220px;
+   border-radius: 18px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.prog1{
+   width: 220px;
+   margin: 0px;
+   border-radius: 18px 18px 0 0 ;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card1-info{
+   display: flex;
+   justify-content: space-between;
+   background-color: #EEEEEE;
+   padding: 5px 25px;
+   margin: 0px;
+   align-items: center;
+   border-radius: 0 0 18px 18px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.shopping-cart{
+   width: 45px;
+   justify-content: space-around;
+   align-items: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Trending-cards{
+display:flex ;
+gap: 45px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.card2-info{
+   display: flex;
+   justify-content: space-between;
+   background-color: #EEEEEE;
+   padding: 13px 25px;
+   margin: 0px;
+   align-items: center;
+   border-radius: 0 0 18px 18px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.prog2{
+   width: 238px;
+   margin: 0px;
+   border-radius: 18px 18px 0 0 ;
+   height: 311px;
+}
+.card2{
+   width: 238px;
+   border-radius: 18px;
+   height: 311px;
+   
+}
+
+.card3-info{
+   display: flex;
+   justify-content: space-between;
+   background-color: #EEEEEE;
+   padding: 13px 25px;
+   margin: 0px;
+   align-items: center;
+   border-radius: 0 0 18px 18px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.prog3{
+   width: 244px;
+   margin: 0px;
+   height: 311px;
+   border-radius: 18px 18px 0 0 ;
+}
+.card3{
+   width: 244px;
+   border-radius: 18px;
+   height: 311px;
+}
+
+
+
+.card4-info{
+   display: flex;
+   justify-content: space-between;
+   background-color: #EEEEEE;
+   padding: 13px 25px;
+   margin: 0px;
+   align-items: center;
+   border-radius: 0 0 18px 18px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.prog4{
+   width: 244px;
+   margin: 0px;
+   height: 311px;
+   border-radius: 18px 18px 0 0 ;
+}
+.card4{
+   width: 244px;
+   border-radius: 18px;
+   height: 311px;
+}
+
+.card5-info{
+   display: flex;
+   justify-content: space-between;
+   background-color: #EEEEEE;
+   padding: 13px 25px;
+   margin: 0px;
+   align-items: center;
+   border-radius: 0 0 18px 18px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.prog5{
+   width: 244px;
+   margin: 0px;
+   height: 311px;
+   border-radius: 18px 18px 0 0 ;
+}
+.card5{
+   width: 244px;
+   border-radius: 18px;
+   height: 311px;
+}
+
+.card6{
+   width: 244px;
+   border-radius: 18px;
+   height: 311px;
+}
+.card6-info{
+   display: flex;
+   justify-content: space-between;
+   background-color: #EEEEEE;
+   padding: 13px 25px;
+   margin: 0px;
+   align-items: center;
+   border-radius: 0 0 18px 18px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.prog6{
+   width: 244px;
+   margin: 0px;
+   height: 311px;
+   border-radius: 18px 18px 0 0 ;
+}
+.card6{
+   width: 244px;
+   border-radius: 18px;
+   height: 311px;
+}
+/* how to make the image a hover */
+
+.searchin{
+   margin: 20px calc(30%/2) 0;
+}
+
+.searchin form{
+   position: relative;
+   right: -105px;
+}
+
+.searchin form input{
+   border-radius: 50px;
+   border: #2C3E50 2px solid;
+   width: 70%;
+   height: 49px;
+   font-size: 20px;
+   padding: 0 20px;
+}
+.searchin form button:focus{
+   outline: none;
+}
+
+.searchin form input:focus{
+   outline: none;
+}
+
+.searchin form button{
+   border-radius: 0 50px 50px 0;
+   background-color: #2C3E50;
+   color: white;
+   width: 100px;
+   height: 52px;
+   outline: none;
+   position: relative;
+   left: -105px;
+   font-size: 20px;
+}
+
+.books{
+   float: left;
+   margin: 20px 0%;
+   padding: 0;
+}
+.book{
+   width: 244px;
+   margin: 0 32px 30px;
+   padding: 0;
+   background: #FFFFFF;  
+   border-radius: 23px;  
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+   border: 1px solid #F5F0E6;
+   display: inline-block;
+   opacity: 0.9;
+   transform: scale(1);
+   transition: all 0.3s ease-in-out;
+   }  
+
+   .book:hover {
+      opacity: 1;
+      transform: scale(1.03);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+    
+    .book .img {
+      transition: transform 0.3s ease;
+    }
+    
+    .book:hover .img {
+      transform: translateY(-5px);
+    }
+
+.img{
+   width: 244px;
+   margin: 0px;
+   height: 311px;
+   border-radius: 18px 18px 0 0 ;
+}
+.info{
+   background-color: #EEEEEE;
+   padding: 13px 25px;
+   margin: 0px;
+   border-radius: 0 0 18px 18px;
+   width: 195px;
+}
+
+.clear{
+   clear: both;
+}
+
+.title{
+   padding: 10px 25px 0;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#notfind{
+   text-align: center;
+   color: #2C3E50;
+   font-size: 30px;
+   margin: 65px 0px 300px;
+}
+#notfind b{
+   font-style: italic;
+}
+.viewAll{
+   background-color: #d4cdc7;
+   border-radius: 15px ;
+   color: #285cbe;
+   border: 1;
+   border-color: #000000;
+   padding: 5px 50px ;
+   height: 30px;
+   position: relative;
+   right: -85%;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* .shopping-card img a:hover{
+   color: rgb(209, 108, 31) ;
+
+} */
+
+.foot-bage{
+   padding: 20px; ;
+   border:0px solid ;
+   background-position: center;
+   border-radius:  18px 18px 18px 18px ;
+   background-color: #2C3E50;
+   color:  #ffffff;
+   margin: 10px;
+}
+
+body{
+   margin: 0%;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   background-color: #F5F0E6;
+   opacity: 0;
+   animation: fadeIn 0.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+   from { opacity: 0; transform: translateY(10px); }
+   to   { opacity: 1; transform: translateY(0); }
+}
+
+
+.titleAndLinks{
+   display: inline-block;
+   position: relative;
+   left: 10px;
+   top: -10px;
+}
+
+/* ----- Amr ----- */
+/* ---- Edits ---- */
+
+.Buttons a{
+   text-decoration: none;
+}
+
+.Buttons img,.Buttons a img{
+   display: inline-block;
+   width: 23%;
+   cursor: pointer;
+}
+
+.infoBtn{
+   margin: 0;
+}
+
+.addToCartBtn{
+   margin: 0 12%;
+}
+
+.addToFavBtn{
+   margin: 0;
+}

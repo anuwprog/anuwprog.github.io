@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 110vh;
+  background: url(Background.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.page-signup {
+  width: 420px;
+  height: 640px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  border: 2px solid rgba(225, 225, 225, 0.2);
+  backdrop-filter: blur(20px);
+  color: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+}
+
+.page-signup h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.page-signup .input-signup {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0px;
+}
+
+.input-signup input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid rgba(225, 225, 225, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  padding: 20px 45px 20px 20px;
+  color: #fff;
+}
+
+.input-signup input::placeholder {
+  color: #fff;
+}
+
+.input-signup i {
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  transform: translateY(-50);
+  font-size: 20px;
+}
+
+.page-signup .button {
+  width: 100%;
+  height: 45px;
+  border: none;
+  outline: none;
+  background-color: #fff;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  margin: 30px 2px 2px 2px;
+}
+
+.page-signup .gender {
+  size: 20px;
+  background-color: transparent;
+  outline: none;
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.page-signup .Register1 {
+  font-size: 15px;
+  text-align: center;
+  margin: 10px 0 15px;
+}
+
+.Register1 p a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.Register1 p a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.page-signup .input-signup input:focus::placeholder
+{
+ color: #e91e63;
+ font-size: 12px;  
+}

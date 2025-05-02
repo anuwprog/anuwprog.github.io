@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookVibe log in</title>
+    <link rel="stylesheet" href="Login.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/x-icon" href="image-alaa/NEWLOGO-removebg-preview.jpg"/>
+    <meta
+      name="keywords"
+      content="Online bookstore sign up,Free book lover account,Register for book discounts,Join a reading community,Earn rewards on book purchases"
+    />
+  </head>
+
+  <body>
+    <div class="page-login">
+      <form action="index.html" method="post">
+        <h1>Log in</h1>
+
+        <div class="input-login">
+          <input type="text" id="username" required placeholder="Username"  /><!-- الاسم-->
+          <i class="bx bxs-user"></i>
+        </div>
+
+        <div class="input-login">
+          <input type="email" id="email" required placeholder="E-mail" /><!--الحساب-->
+          <i class="bx bxs-user-account"></i>
+        </div>
+
+        <div class="input-login">
+          <input
+            type="password"
+            id="password"
+            required
+            placeholder="Password"
+            minlength="6"
+            maxlength="20"
+          /><!-- كلمة السر-->
+          <i class="bx bxs-lock-alt"></i>
+        </div>
+
+        <div class="remember-login">
+          <label for="rem"><input type="checkbox" id="rem" />Remember me</label>
+          <!--افتكر خطواتي-->
+          <a href="forgot.html">Forgot Password</a>
+        </div>
+
+        <button type="submit" class="button">Login</button>
+      </form>
+    </div>
+    <script>
+  let userArr = [
+    ["User1", "Pass11"],
+    ["User2", "Pass22"],
+  ];
+      document.querySelector("form").addEventListener("submit", function (e) {
+        e.preventDefault(); 
+    
+        
+        const username = document.getElementById("username").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const password = document.getElementById("password").value.trim();
+    
+        
+        if (!username || !email || !password) {
+          alert("من فضلك، املأ جميع الحقول.");
+          return;
+        }
+
+        if (username == userArr[0][0] && password == userArr[0][1]) {
+  
+         window.location.href = "index.html";
+          } else if (username == userArr[1][0] && password == userArr[1][1]){
+            window.location.href = "index.html";
+          }
+          else {
+         alert("اسم المستخدم أو كلمة السر غير صحيح.");}
+        });
+    </script>
+  </body>
+</html>
